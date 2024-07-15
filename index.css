@@ -1,10 +1,9 @@
 * {
   padding: 0;
   margin: 0;
+  transition: 700ms;
 }
 .son {
-  width: 80%;
-  height: 90%;
   background-repeat: no-repeat;
   background-size: cover;
   background-image: linear-gradient(to right, #01022de5 30%, #00000088),
