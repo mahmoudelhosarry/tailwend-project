@@ -9,12 +9,14 @@
   <body
     class="flex items-center h-screen justify-center bg-gradient-to-r from-[#000000f6] to-[#0a1622]"
   >
-    <div class="son w-[80%] h-[90%] bg-no-repeat bg-cover">
+    <div class="son w-[80%] h-[90%] bg-no-repeat bg-contain">
       <div
-        class="header text-[#f0ffff] flex justify-between items-center p-5 text-3xl"
+        class="text-[#f0ffff] flex justify-between items-center p-5 text-3xl"
       >
         <h3>AVATAR</h3>
-        <div class="options flex gap-20 text-[1rem] uppercase duration-1000">
+        <div
+          class="hidden md:flex gap-4 md:gap-20 text-[1rem] uppercase duration-1000"
+        >
           <a
             href="#"
             class="hover:cursor-pointer hover:tracking-[5px] hover:text-[#da3a3a]"
@@ -39,10 +41,10 @@
         </div>
       </div>
       <div
-        class="center flex items-start absolute top-[30%] text-[#f0f8ff] flex-col"
+        class="h-3/5 overflow-hidden flex items-start absolute top-[30%] text-[#f0f8ff] flex-col"
       >
         <h1 class="text-7xl m-5">AVATAR</h1>
-        <p class="w-[700px] p-2 m-3 text-lg">
+        <p class="w-4/5 p-2 m-3 text-lg">
           "True wisdom lies not in accumulating vast amounts of knowledge, but
           in understanding the limitations of one's own understanding. It is the
           recognition that despite the breadth of our education or the depth of
